@@ -1,6 +1,11 @@
 # Third-party notices
 
-Delta Vault source is licensed under GNU AGPL version 3. The complete license is in `LICENSE`.
+Original Delta Vault code, documentation and generated test fixtures are dedicated to the
+public domain under CC0 1.0 Universal. The complete legal code is in `LICENSE`.
+Third-party components, Gradle Wrapper files and upstream license/copyright notices are excluded
+from this dedication and retain their original terms. Distributing the application linked with
+cryptolib requires compliance with AGPL-3.0 for the combined work, including corresponding-source
+obligations. The original Delta Vault material may also be reused separately under CC0.
 Copyright (c) 2026 Delta Vault contributors. This application is an independent project;
 Cryptomator is the name of the upstream format and project, not an endorsement of this client.
 
@@ -30,10 +35,13 @@ Runtime dependencies are free and open source:
 
 JUnit (EPL-1.0), Hamcrest (BSD), MockWebServer and OkHttp TLS (Apache-2.0), and Robolectric (MIT) are test-only dependencies.
 Android Gradle Plugin and Gradle are build tools; no Google Play Services or proprietary cloud SDK is included.
+The checked-in Gradle Wrapper (`gradlew`, `gradlew.bat` and `gradle/wrapper/gradle-wrapper.jar`)
+is third-party Gradle code under Apache-2.0; its original copyright and license notices are retained.
 The Android SDK/platform on the user's device is external to this source project.
 
 The APK preserves available dependency `META-INF/LICENSE*` and `META-INF/NOTICE*` resources
-and includes the application's AGPL license under `assets/LICENSE`.
+and includes the original-code CC0 legal code under `assets/LICENSE` and the AGPL-3.0 text for
+cryptolib and the combined application under `assets/licenses/AGPL-3.0.txt`.
 Additional license texts are included under `assets/licenses/`, including Apache-2.0,
 siv-mode and kXML2 copyright notices, and the OpenJDK GPL license with Classpath Exception.
 Exact resolved versions can be inspected with `gradlew :core:dependencies --configuration runtimeClasspath`.

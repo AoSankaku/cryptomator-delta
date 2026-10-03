@@ -1,7 +1,7 @@
 # Native video test fixtures
 
 These files contain only generated solid-color frames and a generated red cover image.
-They contain no user data or third-party footage, and use the project's AGPL-3.0 license.
+They contain no user data or third-party footage, and are dedicated under CC0-1.0 like the project's original code.
 
 - `preview.avi`: 320×180, 5 fps, 8 seconds, Motion JPEG.
 - `cover-art.mkv`: the same video with an embedded PNG attachment.
@@ -24,7 +24,7 @@ the tests verify behavior rather than fixture hashes. These tools are not app de
 
 `image.png`, `image.jpg`, `image.webp` and `image.avif` are generated 96×64 green images.
 `pages.pdf` is a generated PDF containing a red page and a blue page, with no scripts or external references.
-They use the project's AGPL-3.0 license and contain no third-party media.
+They are dedicated under CC0-1.0 like the project's original code and contain no third-party media.
 
 ```sh
 python app/src/androidTest/fixtures/generate_documents.py --ffmpeg /path/to/ffmpeg

@@ -8,7 +8,7 @@
 > 今後の保守・不具合修正・セキュリティ更新は予定していません。
 > APKの配布リリースは作成せず、ソース・テスト・検証記録・ライセンス通知を保存しています。
 
-Cryptomator形式8の保管庫にアクセスする、AGPL-3.0で公開するAndroidクライアントの初期実装です。
+Cryptomator形式8の保管庫にアクセスするAndroidクライアントの初期実装です。
 Android 8.0（API 26）以降に対応します。ライセンス購入・Google Play Services・広告・解析SDKを必要としません。
 Cryptomator公式のプロジェクトとは独立したアプリです。
 
@@ -176,7 +176,9 @@ AVIFデコーダーは `org.aomedia.avif.android:avif:1.3.0.841110fd` を固定�
 
 ## ライセンスと参照資料
 
-このプロジェクトのソースコードは [AGPL-3.0](LICENSE) です。
+このプロジェクトで独自に作成したコード・ドキュメント・テスト素材は [CC0-1.0](LICENSE) です。
+適用範囲と第三者コードの除外項目は [LICENSING.md](LICENSING.md) を参照してください。
+`cryptolib` と組み合わせたアプリ全体を配布する際は、[AGPL-3.0](app/src/main/assets/licenses/AGPL-3.0.txt) の条件に従う必要があります。
 依存ライブラリーとビルド環境については [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) を参照してください。
 
 - [Cryptomator desktop](https://github.com/cryptomator/cryptomator)
