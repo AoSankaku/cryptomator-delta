@@ -1,0 +1,14 @@
+* text=auto
+/gradlew text eol=lf
+*.bat text eol=crlf
+
+# Preserve generated media bytes, including PDF cross-reference offsets.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.avif binary
+*.avi binary
+*.mkv binary
+*.mp4 binary
+*.jar binary
